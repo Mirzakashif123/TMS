@@ -101,7 +101,7 @@ public class BookingTest extends BaseClass {
 		/*Admin Login*/
 		adminLogin();
 
-		//Changs done in Madhu Branch
+		// 2nd Changs done in Madhu Branch
 	}
 }
 
