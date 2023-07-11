@@ -100,6 +100,8 @@ public class BookingTest extends BaseClass {
 		
 		/*Admin Login*/
 		adminLogin();
+
+		//I have Done Changes in code
 	}
 }
 
