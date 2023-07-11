@@ -1,0 +1,4 @@
+PropertyFilePath ./src/test/resources/commondata.property
+ExcelFilePath ./src/test/resources/TestData.xlsx
+DataBaseFilePath ./src/test/resources/database.property
+PPic ./src/test/resources/AdevPic.jpg

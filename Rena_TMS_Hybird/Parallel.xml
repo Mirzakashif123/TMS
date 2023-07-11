@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="2" name="Madhu">
+    <classes>
+      <class name="com.Rena.TMS.RenaTMSCancelBookingTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="2" name="Sudhan">
+    <classes>
+      <class name="com.Rena.TMS.UserCountInDashboardTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" name="Radha">
+    <classes>
+       <class name="com.Rena.TMS.BookingTest"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="2" name="Krishna">
+    <classes>
+      <class name="com.Rena.TMS.IssueTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

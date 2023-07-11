@@ -1,0 +1,15 @@
+browser chrome
+url http://rmgtestingserver/domain/Online_Tourism_Management_System/
+adminusername admin
+adminpassword Test@123
+userusername anuj@gmail.com
+userpassword Test@123
+time 20
+
+
+
+mvn -Dbrowser=chrome -Durl=http://rmgtestingserver/domain/Online_Tourism_Management_System/ -Dadminusername=admin -Dadminpassword=Test@123 -Duserusername=anuj@gmail.com -Duserpassword=Test@123 test
+http://rmgtestingserver/domain/Online_Tourism_Management_System/
+http://localhost/travel
+Budarpumadhu22@gmail.com
+12345

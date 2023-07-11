@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+<listeners>
+<listener class-name="com.rena.tms.gerenic.LisetenerImplementation"></listener>
+<listener class-name="com.rena.tms.gerenic.ITransform"></listener>
+</listeners>
+  <test thread-count="2" name="Test">
+    <classes>
+      <class name="com.Rena.TMS.RenaTMSCancelBookingTest"/>
+      <class name="com.Rena.TMS.UserCountInDashboardTest"/>
+      <class name="com.Rena.TMS.BookingTest"/>
+      <class name="com.Rena.TMS.IssueTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
