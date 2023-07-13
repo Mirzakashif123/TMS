@@ -20,7 +20,7 @@ public class BookingTest extends BaseClass {
 	@Test /*(groups= "reggTest")*/(retryAnalyzer=com.rena.tms.gerenic.RetryImplementation.class)
 	public void bookingTest() throws IOException, InterruptedException
 	{
-		/*Creation of Objects for POM classes*/
+		//welcome
 		TMSHomePage tmsHomePage = new TMSHomePage(driver);
 		AdminDashboardPage adminDashboardPage = new AdminDashboardPage(driver);
 		AdminPackageCreationPage adminPackageCreationPage = new AdminPackageCreationPage(driver);
