@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Rena.TMS.IssueTest">
+      <class name="com.Rena.TMS.BookingTest">
         <methods>
+          <include name="bookingTest"/>
           <include name="adminLogini"/>
           <include name="openBrowser"/>
-          <include name="issueTest"/>
           <include name="adminLogoutt"/>
           <include name="closeBrowser"/>
           <include name="connectToDB"/>
           <include name="closeDB"/>
         </methods>
-      </class> <!-- com.Rena.TMS.IssueTest -->
+      </class> <!-- com.Rena.TMS.BookingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

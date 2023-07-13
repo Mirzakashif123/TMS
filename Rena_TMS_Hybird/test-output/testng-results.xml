@@ -1,186 +1,159 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
-    <line>
-      <![CDATA[AdminSUCCESS:Package Created Successfully]]>
-    </line>
-    <line>
-      <![CDATA[UserSUCCESS:Booked Successfully]]>
-    </line>
-    <line>
-      <![CDATA[user SUCCESS:Booking Cancelled successfully]]>
-    </line>
-    <line>
-      <![CDATA[1st user created   Info successfully submited ]]>
-    </line>
-    <line>
-      <![CDATA[2nd user created   Info successfully submited ]]>
-    </line>
-    <line>
-      <![CDATA[User count has been updated]]>
-    </line>
-    <line>
-      <![CDATA[AdminSUCCESS:Package Created Successfully]]>
-    </line>
-    <line>
-      <![CDATA[UserSUCCESS:Booked Successfully]]>
-    </line>
-    <line>
-      <![CDATA[Admin SUCCESS:Booking Confirm successfully]]>
-    </line>
-    <line>
-      <![CDATA[Users booking Confirmed]]>
-    </line>
-    <line>
-      <![CDATA[Issue GenerationInfo successfully submited]]>
-    </line>
-    <line>
-      <![CDATA[issue Raised by the User is visible in Admin ManageIssue ]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-07-13T12:54:17 IST" name="Suite" finished-at="2023-07-13T12:57:52 IST" duration-ms="214945">
+  <suite started-at="2023-07-13T18:05:41 IST" name="Default suite" finished-at="2023-07-13T18:06:15 IST" duration-ms="33628">
     <groups>
-      <group name="reggTest">
-        <method signature="RenaTMSCancelBookingTest.cancelBookigTest()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" name="cancelBookigTest" class="com.Rena.TMS.RenaTMSCancelBookingTest"/>
-      </group> <!-- reggTest -->
-      <group name="smokeTest">
-        <method signature="IssueTest.issueTest()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" name="issueTest" class="com.Rena.TMS.IssueTest"/>
-        <method signature="UserCountInDashboardTest.dashBoard()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" name="dashBoard" class="com.Rena.TMS.UserCountInDashboardTest"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2023-07-13T12:54:17 IST" name="Test" finished-at="2023-07-13T12:57:52 IST" duration-ms="214945">
-      <class name="com.Rena.TMS.RenaTMSCancelBookingTest">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:54:17 IST" name="connectToDB" finished-at="2023-07-13T12:54:17 IST" duration-ms="70" status="PASS">
+    <test started-at="2023-07-13T18:05:41 IST" name="Default test" finished-at="2023-07-13T18:06:15 IST" duration-ms="33628">
+      <class name="com.Rena.TMS.BookingTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:05:41 IST" name="connectToDB" finished-at="2023-07-13T18:05:41 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDB -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:54:17 IST" name="openBrowser" finished-at="2023-07-13T12:54:38 IST" duration-ms="21232" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:05:41 IST" name="openBrowser" finished-at="2023-07-13T18:06:15 IST" duration-ms="33437" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e63c3fd3e79b8a9f10b8a309a99b0a, get {url=http://rmgtestingserver/domain/Online_Tourism_Management_System/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MIRZAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:18222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18222/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e63c3fd3e79b8a9f10b8a309a99b0a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e63c3fd3e79b8a9f10b8a309a99b0a, get {url=http://rmgtestingserver/domain/Online_Tourism_Management_System/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MIRZAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:18222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18222/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e63c3fd3e79b8a9f10b8a309a99b0a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.rena.tms.gerenic.BaseClass.openBrowser(BaseClass.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:54:38 IST" name="adminLogini" finished-at="2023-07-13T12:54:40 IST" duration-ms="1520" status="PASS">
+        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:06:15 IST" name="adminLogini" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689251775415" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogini -->
-        <test-method signature="cancelBookigTest()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:54:40 IST" name="cancelBookigTest" finished-at="2023-07-13T12:55:12 IST" duration-ms="32483" status="PASS">
+        <test-method signature="bookingTest()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:06:15 IST" name="bookingTest" finished-at="2023-07-13T18:06:15 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e63c3fd3e79b8a9f10b8a309a99b0a, get {url=http://rmgtestingserver/domain/Online_Tourism_Management_System/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MIRZAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:18222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18222/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e63c3fd3e79b8a9f10b8a309a99b0a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=114.0.5735.199)
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [95e63c3fd3e79b8a9f10b8a309a99b0a, get {url=http://rmgtestingserver/domain/Online_Tourism_Management_System/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\MIRZAK~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:18222}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:18222/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 95e63c3fd3e79b8a9f10b8a309a99b0a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:297)
+at com.rena.tms.gerenic.BaseClass.openBrowser(BaseClass.java:101)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
-            <line>
-              <![CDATA[AdminSUCCESS:Package Created Successfully]]>
-            </line>
-            <line>
-              <![CDATA[UserSUCCESS:Booked Successfully]]>
-            </line>
-            <line>
-              <![CDATA[user SUCCESS:Booking Cancelled successfully]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- cancelBookigTest -->
-        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:55:12 IST" name="adminLogoutt" finished-at="2023-07-13T12:55:13 IST" duration-ms="545" status="PASS">
+        </test-method> <!-- bookingTest -->
+        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:06:15 IST" name="adminLogoutt" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689251775427" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogoutt -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:55:13 IST" name="closeBrowser" finished-at="2023-07-13T12:55:14 IST" duration-ms="872" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:06:15 IST" name="closeBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689251775446" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.Rena.TMS.RenaTMSCancelBookingTest@b2c9a9c]" started-at="2023-07-13T12:57:52 IST" name="closeDB" finished-at="2023-07-13T12:57:52 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-13T18:06:15 IST" name="closeDB" finished-at="2023-07-13T18:06:15 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->
-      </class> <!-- com.Rena.TMS.RenaTMSCancelBookingTest -->
-      <class name="com.Rena.TMS.UserCountInDashboardTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" started-at="2023-07-13T12:55:14 IST" name="openBrowser" finished-at="2023-07-13T12:55:31 IST" duration-ms="16799" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" started-at="2023-07-13T12:55:31 IST" name="adminLogini" finished-at="2023-07-13T12:55:35 IST" duration-ms="4003" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogini -->
-        <test-method signature="dashBoard()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" started-at="2023-07-13T12:55:35 IST" name="dashBoard" finished-at="2023-07-13T12:56:03 IST" duration-ms="28125" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[1st user created   Info successfully submited ]]>
-            </line>
-            <line>
-              <![CDATA[2nd user created   Info successfully submited ]]>
-            </line>
-            <line>
-              <![CDATA[User count has been updated]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- dashBoard -->
-        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" started-at="2023-07-13T12:56:03 IST" name="adminLogoutt" finished-at="2023-07-13T12:56:03 IST" duration-ms="593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogoutt -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@77f1baf5]" started-at="2023-07-13T12:56:03 IST" name="closeBrowser" finished-at="2023-07-13T12:56:04 IST" duration-ms="615" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.Rena.TMS.UserCountInDashboardTest -->
-      <class name="com.Rena.TMS.BookingTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@41a2befb]" started-at="2023-07-13T12:56:04 IST" name="openBrowser" finished-at="2023-07-13T12:56:22 IST" duration-ms="18249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.BookingTest@41a2befb]" started-at="2023-07-13T12:56:22 IST" name="adminLogini" finished-at="2023-07-13T12:56:24 IST" duration-ms="2283" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogini -->
-        <test-method signature="bookingTest()[pri:0, instance:com.Rena.TMS.BookingTest@41a2befb]" started-at="2023-07-13T12:56:24 IST" name="bookingTest" finished-at="2023-07-13T12:56:58 IST" duration-ms="33303" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[AdminSUCCESS:Package Created Successfully]]>
-            </line>
-            <line>
-              <![CDATA[UserSUCCESS:Booked Successfully]]>
-            </line>
-            <line>
-              <![CDATA[Admin SUCCESS:Booking Confirm successfully]]>
-            </line>
-            <line>
-              <![CDATA[Users booking Confirmed]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- bookingTest -->
-        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.BookingTest@41a2befb]" started-at="2023-07-13T12:56:58 IST" name="adminLogoutt" finished-at="2023-07-13T12:56:58 IST" duration-ms="599" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogoutt -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@41a2befb]" started-at="2023-07-13T12:56:58 IST" name="closeBrowser" finished-at="2023-07-13T12:56:59 IST" duration-ms="593" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
       </class> <!-- com.Rena.TMS.BookingTest -->
-      <class name="com.Rena.TMS.IssueTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" started-at="2023-07-13T12:56:59 IST" name="openBrowser" finished-at="2023-07-13T12:57:12 IST" duration-ms="12880" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" started-at="2023-07-13T12:57:12 IST" name="adminLogini" finished-at="2023-07-13T12:57:14 IST" duration-ms="1847" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogini -->
-        <test-method signature="issueTest()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" started-at="2023-07-13T12:57:14 IST" name="issueTest" finished-at="2023-07-13T12:57:51 IST" duration-ms="37219" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Issue GenerationInfo successfully submited]]>
-            </line>
-            <line>
-              <![CDATA[issue Raised by the User is visible in Admin ManageIssue ]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- issueTest -->
-        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" started-at="2023-07-13T12:57:51 IST" name="adminLogoutt" finished-at="2023-07-13T12:57:52 IST" duration-ms="789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- adminLogoutt -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.IssueTest@131ef10]" started-at="2023-07-13T12:57:52 IST" name="closeBrowser" finished-at="2023-07-13T12:57:52 IST" duration-ms="266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.Rena.TMS.IssueTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
