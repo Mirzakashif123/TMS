@@ -2,61 +2,64 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[1st user created   Info successfully submited ]]>
+      <![CDATA[AdminSUCCESS:Package Created Successfully]]>
     </line>
     <line>
-      <![CDATA[2nd user created   Info successfully submited ]]>
+      <![CDATA[UserSUCCESS:Booked Successfully]]>
     </line>
     <line>
-      <![CDATA[User count has been updated]]>
+      <![CDATA[Admin SUCCESS:Booking Confirm successfully]]>
+    </line>
+    <line>
+      <![CDATA[Users booking Confirmed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-13T18:46:41 IST" name="Suite" finished-at="2023-07-13T18:47:53 IST" duration-ms="72430">
+  <suite started-at="2023-07-14T10:31:48 IST" name="Suite" finished-at="2023-07-14T10:36:39 IST" duration-ms="291216">
     <groups>
-      <group name="smokeTest">
-        <method signature="UserCountInDashboardTest.dashBoard()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" name="dashBoard" class="com.Rena.TMS.UserCountInDashboardTest"/>
-      </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2023-07-13T18:46:41 IST" name="Test" finished-at="2023-07-13T18:47:53 IST" duration-ms="72430">
-      <class name="com.Rena.TMS.UserCountInDashboardTest">
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:46:41 IST" name="connectToDB" finished-at="2023-07-13T18:46:41 IST" duration-ms="165" status="PASS">
+    <test started-at="2023-07-14T10:31:48 IST" name="Test" finished-at="2023-07-14T10:36:39 IST" duration-ms="291216">
+      <class name="com.Rena.TMS.BookingTest">
+        <test-method is-config="true" signature="connectToDB()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:31:47 IST" name="connectToDB" finished-at="2023-07-14T10:31:48 IST" duration-ms="399" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectToDB -->
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:46:41 IST" name="openBrowser" finished-at="2023-07-13T18:47:07 IST" duration-ms="26598" status="PASS">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:31:48 IST" name="openBrowser" finished-at="2023-07-14T10:33:01 IST" duration-ms="73571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:47:07 IST" name="adminLogini" finished-at="2023-07-13T18:47:11 IST" duration-ms="3415" status="PASS">
+        <test-method is-config="true" signature="adminLogini()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:33:01 IST" name="adminLogini" finished-at="2023-07-14T10:33:13 IST" duration-ms="11436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogini -->
-        <test-method signature="dashBoard()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:47:11 IST" name="dashBoard" finished-at="2023-07-13T18:47:52 IST" duration-ms="41128" status="PASS">
+        <test-method signature="bookingTest()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:33:13 IST" name="bookingTest" finished-at="2023-07-14T10:36:36 IST" duration-ms="202891" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[1st user created   Info successfully submited ]]>
+              <![CDATA[AdminSUCCESS:Package Created Successfully]]>
             </line>
             <line>
-              <![CDATA[2nd user created   Info successfully submited ]]>
+              <![CDATA[UserSUCCESS:Booked Successfully]]>
             </line>
             <line>
-              <![CDATA[User count has been updated]]>
+              <![CDATA[Admin SUCCESS:Booking Confirm successfully]]>
+            </line>
+            <line>
+              <![CDATA[Users booking Confirmed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- dashBoard -->
-        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:47:52 IST" name="adminLogoutt" finished-at="2023-07-13T18:47:52 IST" duration-ms="497" status="PASS">
+        </test-method> <!-- bookingTest -->
+        <test-method is-config="true" signature="adminLogoutt()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:36:36 IST" name="adminLogoutt" finished-at="2023-07-14T10:36:37 IST" duration-ms="1218" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- adminLogoutt -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:47:53 IST" name="closeBrowser" finished-at="2023-07-13T18:47:53 IST" duration-ms="642" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:36:37 IST" name="closeBrowser" finished-at="2023-07-14T10:36:39 IST" duration-ms="1964" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.Rena.TMS.UserCountInDashboardTest@65e98b1c]" started-at="2023-07-13T18:47:54 IST" name="closeDB" finished-at="2023-07-13T18:47:54 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.Rena.TMS.BookingTest@65e98b1c]" started-at="2023-07-14T10:36:39 IST" name="closeDB" finished-at="2023-07-14T10:36:39 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDB -->
-      </class> <!-- com.Rena.TMS.UserCountInDashboardTest -->
+      </class> <!-- com.Rena.TMS.BookingTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
